@@ -14,39 +14,53 @@
 
   </head>
 
+
+                                            <!-- Custom styling for the HTML/Bootstrap in CSS -->
+
               <style>
+
+                /* Seetting the breaking points  */
                 @media screen and (max-width: 768px) {
-                  /* The body's bg color will be #333 */
+          
                   body {
                       background-color: white
                   }
-                  /* The wrapper's width will be 600px */
-                  
               }
-              .nav-link:hover, .nav-link:focus, .nav-link:active {
-    background-color:sandybrown; }
-    .nav-link.active {
-    background-color: #0b51c5 !important; }
+
+              /* Adding Custom styling to the links */
+              
+                      .nav-link:hover, .nav-link:focus, .nav-link:active {
+                      background-color:black; } 
+                      .nav-link:active {
+                      background-color: #0b51c5 !important; }
 
               </style>
+<!-- Head Ends  -->
+<!-- ************************************************** -->
+<!-- Body starts  -->
+
 
 <body style="bg-light">
 
-    <!-- Navbar with general Bootstrap specifications  -->
+                                    <!-- Navbar   -->
 
    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
 
     <!-- Brand name  -->
-      <a class="navbar-brand brand text-white" href="index.html`" style="font-size: xx-large; padding-left: 100px;" >Jay J. Idrees, M.D., M.P.H. </a>
+      <a class="navbar-brand brand text-white" href="index.html"  style="font-size: xx-large; padding-left: 100px; color: black " >Jay J. Idrees, M.D., M.P.H. </a>
 
       <!-- Toggler for responsive design -->
 
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-                                    <!-- Toggler collapse  -->
+
+     <!-- Toggler collapse  -->
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto " style="padding-right:50px">
+
+      <!-- Links  -->
+      <ul class="navbar-nav ml-auto " style="padding-right:50px; font-size:x-large;">
 
           <!-- Home is not required so commented out -->
 
@@ -54,7 +68,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li> -->
 
-          <!-- The 3 links: Contact, Portfolio, About -->
+     <!-- The 3 links: Contact, Portfolio, About -->
 
                                       <li class="nav-item active">
                                         <a class="nav-link text-white" href="contact.html">Contact</a>
@@ -68,7 +82,7 @@
                                         <a class="nav-link text-white" href="index.html">About</a>
                                       </li>
 
-                                      <!-- Dropdown link not used -->
+         <!-- Dropdown link not used -->
 
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -81,8 +95,6 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li> -->
-
-
 
           <!-- Diabled link not used -->
 
@@ -102,7 +114,13 @@
       </div>
      </nav>
   <!-- Navigation bar ends  -->
+
+
+
+                                                                 <!-- Main Body/About Me  -->
+
     <!-- About Me Container starts  -->
+
 
           <div class="container offset-md-2" style="padding-top: 30px;">
             
@@ -120,7 +138,7 @@
 
 
                       <div class="col-8 text-left blockquote">
-                        <p >Welcome to my webpage. I am currently training to become a Full-stack web and software developer at Columbia University, School of Engineering, bootcamp. <br> <br> I have a divese background. I am a medical doctor by profession, with training in surgery. I have also completed Masters in biostatistics from Johns Hopkins University. <br><br> Over the past 10 years, I have worked as a physician scientist and biostatistician at Cleveland Clinic, Ohio, with specialization in the field of Heart and Vascular Surgery. I continued my work at Case Western Reserve University and Ohio State University with focus in cancer research. <br> <br> During my tenure, I mastered the art of performing statistical analysis on large, complex databases including medicare data, National Cancer database etc, that brought to fruition many projects with publications in high impact journals  </p>
+                        <p >Welcome to my webpage. I am currently training to become a Full-stack web and software developer at Columbia University, School of Engineering, bootcamp. <br> <br> I have a divese background. I am a medical doctor by profession, with residency training in surgery. I have also completed Masters in biostatistics from Johns Hopkins University. <br><br> Over the past 10 years, I have worked as a physician scientist and biostatistician at Cleveland Clinic, Ohio, with specialization in the field of Heart and Vascular Surgery. I continued my work at Case Western Reserve University and Ohio State University with focus in cancer research. <br> <br> During my tenure, I mastered the art of performing statistical analysis on large, complex databases including medicare data, National Cancer database etc, that brought to fruition many projects with publications in high impact journals  </p>
                         <button type="button" class="btn btn-danger ">learn more</button>
                       </div>
               
@@ -130,12 +148,22 @@
 
           </div>
         
+                                              <!-- Footer Starts  -->
 
+          <div class="footer-primary" style="position: absolute; bottom: 0; width: 100%; ">
 
+            <footer class="card-footer text-center bg-transperant footer-font-style text-muted footer-position">
+
+              <p  > Copyright 2020. Jay Idrees</p>
+
+            </footer>
+
+          </div>
+                                              <!-- Footer Ends  -->
 
       
 
-    <!--Bootstrap JS -->
+    <!--Bootstrap JS linking info -->
     <script src="script.js">
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -143,12 +171,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 
-  <div class="footer-primary" style="position: absolute; bottom: 0; width: 100%; ">
-
-    <footer class="card-footer text-center bg-transperant footer-font-style text-muted footer-position">
-      <p  > Copyright 2020. Jay Idrees
-      </p>
-    </footer>
-  </div>
-  
 </html>
