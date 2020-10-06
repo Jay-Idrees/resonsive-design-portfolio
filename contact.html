@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="reset.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/14995c0b3b.js" crossorigin="anonymous"></script>
+  
 
     <title>Jay Idrees</title>
 
@@ -29,10 +31,9 @@
 
               /* Adding Custom styling to the links */
               
-                      .nav-link:hover, .nav-link:focus, .nav-link:active {
-                      background-color:black; } 
-                      .nav-link:active {
-                      background-color: #0b51c5 !important; }
+              .nav-link:hover, .nav-link:focus, .nav-link:active {
+                      background-color: #0b51c5; } 
+                    
 
               </style>
 <!-- Head Ends  -->
@@ -122,27 +123,46 @@
     <!-- About Me Container starts  -->
 
 
-          <div class="container offset-md-2" style="padding-top: 30px;">
+          <div class="container offset-md-2" style="padding-top: 150px;">
             
             <div class="row">
-              <div class="col-sm-9 bg-white">
-
-                <p class="display-4 text-center">About me</p>
+              <div class="col-sm-7 bg-white">
 
 
-                    <div class="row ">
-                       <div class="col-md-4">
-                   
-                        <img class="rounded-circle" style="max-width:100%;" src="https://i1.rgstatic.net/ii/profile.image/272563498647591-1441995610798_Q512/Jay_Idrees.jpg" alt=" Idrees" class="rounded-sm  border-white">
-                         </div>
 
+                
+                <form>
 
-                      <div class="col-8 text-left blockquote">
-                        <p >Welcome to my webpage. I am currently training to become a Full-stack web and software developer at Columbia University, School of Engineering, bootcamp. <br> <br> I have a divese background. I am a medical doctor by profession, with residency training in surgery. I have also completed Masters in biostatistics from Johns Hopkins University. <br><br> Over the past 10 years, I have worked as a physician scientist and biostatistician at Cleveland Clinic, Ohio, with specialization in the field of Heart and Vascular Surgery. I continued my work at Case Western Reserve University and Ohio State University with focus in cancer research. <br> <br> During my tenure, I mastered the art of performing statistical analysis on large, complex databases including medicare data, National Cancer database etc, that brought to fruition many projects with publications in high impact journals  </p>
-                        <button type="button" class="btn btn-danger ">learn more</button>
-                      </div>
               
-                     </div>
+                  <div class="form-group">
+                    <span class="input-group-addon"><i class="fas fa-user fa-w-14 fa-lg" style="color:black;"></i></span> <label class="blockquote" for="formGroupExampleInput"> Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First and last name">
+                    
+                  </div>
+
+
+
+                  <div class="form-group ">
+
+                    <span class="input-group-addon"><i class="fas fa-reply fa-w-14 fa-lg" style="color:cadetblue;"></i></span>  <label for="exampleFormControlInput1" class="blockquote">Email </label>  
+                   
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" >
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope-o fa-lg " style="color:burlywood;"></i></span> <label class="blockquote" for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+
+                  <button type="button" class=" btn btn-danger ">Submit</button>
+                </form>
+
+
+
+
+
               </div>
             </div>
 
