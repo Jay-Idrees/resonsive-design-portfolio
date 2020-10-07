@@ -2,7 +2,7 @@
 About me page and portfolio
 
 # About
-With the skills I learnt at the bootcamp, by the end of first week of my coding boot camp experience at Columbia University, NY. Date of publication: 9/28/2020.
+Developed with the skills I learnt at the bootcamp by the end of first week of coding boot camp experience at Columbia University, NY. Date of publication: 9/28/2020.
 
 This website is designed exclusively using the CSS bootstrap and incorporates responsive design attributes. 
 
